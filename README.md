@@ -2,3 +2,4 @@
 
 
 <a href="LabOne/index.html">Lab One</a>
+<a href="LabTwo/index.html">Lab Two</a>
