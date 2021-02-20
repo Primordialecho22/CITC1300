@@ -1,6 +1,7 @@
 body{
     background-color: rgb(93, 177, 72);
     color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 img{
     max-width: 100%;
@@ -15,8 +16,9 @@ a:hover{
 #container{
     width: 75%;
     margin: 20px auto;
-    border: 4px solid black;
+    border: 2px solid darkslategray;
     padding: 20px;
+    background-color: black;
 }
 header{
     background-image: url('../Images/kyle-lin-QwJ_L9L5eOw-unsplash.jpg');
@@ -38,10 +40,10 @@ nav{
 }
 nav a{
     background-color: palegreen;
-    padding: 20px 60px ;
-    font-size: 1.3em;
+    padding: 15px 30px ;
+    font-size: 0.99em;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 nave a:hover{
     background-color: palegreen;
@@ -49,20 +51,22 @@ nave a:hover{
 }
 main{
     background-color: darkslategrey;
-    padding: 20px;
+    padding: 10px;
     margin: 5px 0;
+    text-align: center;
 }
 main img{
     display: block;
     margin: 20px auto;
-    width: 65%;
+    width: 75%;
     border-radius: 20px;
 }
 footer{
     background: dimgray;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 40px;
     padding: 40px 0;
+    color: black;
 }
 .imgstyle{
     border: 4px solid black;
