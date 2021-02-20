@@ -1,12 +1,12 @@
 body{
-    background-color: black;
-    color: cornflowerblue;
+    background-color: rgb(93, 177, 72);
+    color: black;
 }
 img{
     max-width: 100%;
 }
 a{
-    color: blueviolet;
+    color: black;
 }
 a:hover{
     color: burlywood;
@@ -15,6 +15,63 @@ a:hover{
 #container{
     width: 75%;
     margin: 20px auto;
-    border: 4px solid yellow;
+    border: 4px solid black;
     padding: 20px;
+}
+header{
+    background-image: url('../Images/kyle-lin-QwJ_L9L5eOw-unsplash.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    padding: 10px;
+}
+header h1{
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    line-height: 230px;
+    text-shadow: 2px 5px 2px darkgreen;
+}
+nav{
+    background-color: black;
+    text-align: center;
+}
+nav a{
+    background-color: palegreen;
+    padding: 20px 60px ;
+    font-size: 1.3em;
+    text-decoration: none;
+    border-radius: 10px;
+}
+nave a:hover{
+    background-color: palegreen;
+    color: cornflowerblue;
+}
+main{
+    background-color: darkslategrey;
+    padding: 20px;
+    margin: 5px 0;
+}
+main img{
+    display: block;
+    margin: 20px auto;
+    width: 65%;
+    border-radius: 20px;
+}
+footer{
+    background: dimgray;
+    text-align: center;
+    margin-top: 5px;
+    padding: 40px 0;
+}
+.imgstyle{
+    border: 4px solid black;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 0;
+}
+.contact {
+    text-align: center;
+}
+main a:hover{
+    color: whitesmoke;
 }
