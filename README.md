@@ -7,3 +7,5 @@
     <li><a href="LabFour/index.html">Lab Four</a></li>
     <li><a href="MidTerm/index.html">Mid-Term</a></li>
 </ul>
+
+<a href="MidTerm/index.html">Mid-Term</a>
