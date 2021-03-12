@@ -21,6 +21,7 @@ a:hover{
     padding: 20px;
     background-color: grey;
     text-align: center;
+    border-radius: 56px;
 }
 #peaches{
     width: 75%;
@@ -29,6 +30,7 @@ a:hover{
     padding: 20px;
     background-color: black;
     text-align: center; 
+    border-radius: 56px;
 }
 
 header{
@@ -38,6 +40,7 @@ header{
     height: 300px;
     padding: 10px;
     border: 2px solid black;
+    border-radius: 56px;
 }
 header h1{
     color:cadetblue;
@@ -50,6 +53,7 @@ nav{
     background-color: black;
     text-align: center;
     border: 4px solid darkslategray;
+    border-radius: 56px;
 }
 nav a{
     background-color: black;
@@ -58,6 +62,7 @@ nav a{
     text-decoration: honeydew;
     border-radius: 4px;
     border: 4px solid darkslategray;
+    border-radius: 56px;
 }
 nav a:hover{
     background-color: gray;
@@ -69,6 +74,7 @@ main{
     margin: 5px 0;
     text-align: center;
     border: 2px solid black;
+    border-radius: 56px;
 }
 main img{
     display: block;
@@ -83,6 +89,7 @@ footer{
     padding: 40px 0;
     color: cadetblue;
     border: 4px solid darkslategrey;
+    border-radius: 56px;
 }
 .imgstyle{
     border: 4px solid black;
@@ -94,5 +101,25 @@ main a:hover{
 }
 body h3{
     color: cadetblue;
-    border: 4px solid darkslateblue;
+}
+.box1{
+    box-shadow: 0 5px 5px 0 coral;
+    background-color: black;
+    border-radius: 56px;
+    display: inline-block;
+    height: 50px;
+    margin: 1rem;
+    position: relative;
+    width: 450px;
+}
+.box2{
+    box-shadow: 0 5px 5px 0 coral;
+    background-color: black;
+    border-radius: 56px;
+    display: inline-block;
+    height: 50px;
+    margin: 1rem;
+    position: relative;
+    width: 450px;
+    
 }
