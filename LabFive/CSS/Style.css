@@ -14,25 +14,16 @@ header{
 img{
     max-width: 45%;
 }
-h1{
-    color: white;
-    text-align: center;
-    font-size: 40px;
-    line-height: 230px;
-    text-shadow: 2px 5px 2px black;
-}
 main{
+    text-align: center;
     font-family:Arial, Helvetica, sans-serif;
     background-color: dimgrey;
-    padding: 10px;
-    margin: 5px 0;
-    text-align: center;
     border: 2px solid white;
     border-radius: 10px;
 }
 #container{
     margin: 10px;
-    
+    text-align: center;
 }
 nav{
     text-align: center;
@@ -60,13 +51,22 @@ nav li a{
 aside ol{
     text-align: center;
 }
-
-aside,
-section{
-    padding: 10px;
-    margin: 5px 0;
+.Section-Main,
+.Main-Secondary{
     display: flex;
     flex-direction: column;
+}
+.Main_Img{
+    max-width: 100%;
+    margin-left: 5em;
+}
+.Section-Main{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.Main-Secondary{
+    margin-left: 1em;
+    margin-right: 1em; 
 }
 img{
     max-width: 45%;
@@ -91,8 +91,18 @@ footer{
 }
 @media only screen and (min-width: 750px){
 section{
+    margin: auto;
+}
+.Section-Main{
     display:flex;
     flex-direction: row;
+    margin-left: 5em;
+    margin-right: 10em;
 }
-
+.Main-Secondary{
+    display:flex;
+    flex-direction: row;
+    margin-left: 10em;
+    margin-right: 10em;
+}
 }
