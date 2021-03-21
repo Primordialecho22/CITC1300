@@ -8,3 +8,7 @@
 </ul>
 
 <a href="MidTerm/index.html">Mid-Term</a>
+
+<ul>
+    <li><a href="LabFive/Index.html">Lab Five</a></li>
+</ul>
