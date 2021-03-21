@@ -3,13 +3,20 @@ body{
     color: black;
 }
 header{
-    background-image: url(../Images/Header-06.jpg);
+    background-image: url(../Images/Games-02.jpg);
     background-position: center center;
     background-size: cover;
     height: 300px;
     padding: 20px;
     border: 2px solid black;
     border-radius: 22px;
+}
+header h1{
+    text-align: center;
+    color:rgb(230, 233, 233);
+    font-size: 60px;
+    line-height: 230px;
+    text-shadow: 2px 5px 2px black;
 }
 img{
     max-width: 45%;
@@ -51,23 +58,6 @@ nav li a{
 aside ol{
     text-align: center;
 }
-.Section-Main,
-.Main-Secondary{
-    display: flex;
-    flex-direction: column;
-}
-.Main_Img{
-    max-width: 100%;
-    margin-left: 5em;
-}
-.Section-Main{
-    margin-left: 1em;
-    margin-right: 1em;
-}
-.Main-Secondary{
-    margin-left: 1em;
-    margin-right: 1em; 
-}
 img{
     max-width: 45%;
 }
@@ -88,21 +78,4 @@ footer{
     color: black;
     border: 2px solid white;
     border-radius: 10px;
-}
-@media only screen and (min-width: 750px){
-section{
-    margin: auto;
-}
-.Section-Main{
-    display:flex;
-    flex-direction: row;
-    margin-left: 5em;
-    margin-right: 10em;
-}
-.Main-Secondary{
-    display:flex;
-    flex-direction: row;
-    margin-left: 10em;
-    margin-right: 10em;
-}
 }
