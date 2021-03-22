@@ -6,6 +6,7 @@ header{
     background-image: url(../Images/Games-02.jpg);
     background-position: center center;
     background-size: cover;
+    font-family: cursive;
     height: 300px;
     padding: 20px;
     border: 2px solid black;
@@ -14,7 +15,7 @@ header{
 header h1{
     text-align: center;
     color:rgb(230, 233, 233);
-    font-size: 60px;
+    font-size: 45px;
     line-height: 230px;
     text-shadow: 2px 5px 2px black;
 }
@@ -23,7 +24,7 @@ img{
 }
 main{
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: cursive;
     background-color: dimgrey;
     border: 2px solid white;
     border-radius: 10px;
@@ -49,14 +50,27 @@ nav li a{
     color: black;
     font-size: 1.5em;
     text-decoration: none;
+    font-family: cursive;
     margin: 20px 0;
     height: 50px;
     line-height: 50px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px white;
 }
+nav li a:hover{
+    display: block;
+    background-color: black;
+    color: dimgray;
+}
 aside ol{
     text-align: center;
+}
+section,
+aside{
+    padding: 20px;
+}
+hr{
+    border-color: black;
 }
 img{
     max-width: 45%;
@@ -73,6 +87,7 @@ main img{
 footer{
     background: dimgray;
     text-align: center;
+    font-family: cursive;
     margin-top: 40px;
     padding: 40px 0;
     color: black;
