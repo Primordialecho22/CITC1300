@@ -1,12 +1,16 @@
 body{
-    background-color: rgb(54, 53, 58);
-    color: black;
+    background-color:seagreen;
+    color: rgb(241, 237, 239);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 header{
     background-image: url(../Images/IceCream.jpg);
     background-position: center center;
     background-size: cover;
-    font-family: cursive;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     height: 300px;
     padding: 20px;
     border: 2px solid black;
@@ -14,20 +18,21 @@ header{
 }
 header h1{
     text-align: center;
-    color:rgb(230, 233, 233);
+    color: white;
     font-size: 25px;
     line-height: 230px;
     text-shadow: 2px 5px 2px black;
 }
 img{
-    max-width: 45%;
+    max-width: 65%;
 }
 main{
     text-align: center;
-    font-family: cursive;
-    background-color: dimgrey;
-    border: 2px solid white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    border: 2px solid powderblue;
     border-radius: 10px;
+    
 }
 #container{
     margin: 10px;
@@ -46,21 +51,22 @@ nav li{
 }
 nav li a{
     display: block;
-    background-color: dimgray;
-    color: black;
+    background-color: black;
+    color: rgb(247, 244, 245);
     font-size: 1.5em;
     text-decoration: none;
-    font-family: cursive;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 20px 0;
     height: 50px;
     line-height: 50px;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px white;
+    box-shadow: 2px 2px 5px powderblue;
 }
 nav li a:hover{
     display: block;
     background-color: black;
-    color: dimgray;
+    color: white;
+    text-decoration: underline;
 }
 aside ol{
     text-align: center;
@@ -72,8 +78,11 @@ aside{
 hr{
     border-color: black;
 }
-img{
-    max-width: 45%;
+.locations{
+    text-align: left;
+}
+.top_aside{
+    display: none;
 }
 main img{
     display: block;
@@ -85,12 +94,12 @@ main img{
     border-radius: 10px;
 }
 footer{
-    background: dimgray;
+    background: black;
     text-align: center;
-    font-family: cursive;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-top: 40px;
     padding: 40px 0;
-    color: black;
+    color: white;
     border: 2px solid white;
     border-radius: 10px;
 }
