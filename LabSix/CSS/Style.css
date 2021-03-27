@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(54, 53, 58);
+    color: black;
+}
+header{
+    background-image: url(../Images/IceCream.jpg);
+    background-position: center center;
+    background-size: cover;
+    font-family: cursive;
+    height: 300px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 22px;
+}
+header h1{
+    text-align: center;
+    color:rgb(230, 233, 233);
+    font-size: 25px;
+    line-height: 230px;
+    text-shadow: 2px 5px 2px black;
+}
+img{
+    max-width: 45%;
+}
+main{
+    text-align: center;
+    font-family: cursive;
+    background-color: dimgrey;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#container{
+    margin: 10px;
+    text-align: center;
+}
+nav{
+    text-align: center;
+
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav li{
+    display: block;
+}
+nav li a{
+    display: block;
+    background-color: dimgray;
+    color: black;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: cursive;
+    margin: 20px 0;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px white;
+}
+nav li a:hover{
+    display: block;
+    background-color: black;
+    color: dimgray;
+}
+aside ol{
+    text-align: center;
+}
+section,
+aside{
+    padding: 20px;
+}
+hr{
+    border-color: black;
+}
+img{
+    max-width: 45%;
+}
+main img{
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 5px 5px 10px white;
+    border-radius: 10px;
+}
+footer{
+    background: dimgray;
+    text-align: center;
+    font-family: cursive;
+    margin-top: 40px;
+    padding: 40px 0;
+    color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+}
