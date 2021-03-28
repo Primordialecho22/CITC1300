@@ -92,11 +92,11 @@ hr{
 .top_aside{
     display: none;
 }
-.flavors_menu{
+.menu{
     text-align: left;
 }
-.sizes_menu{
-    text-align: left;
+.h3_menu{
+    text-align: center;
 }
 main img{
     display: block;
