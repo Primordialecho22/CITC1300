@@ -152,10 +152,14 @@ main{
 }
 nav{
     background-color: black;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-top: 10px;
 }
 nav li a{
     width: 175px;
     box-shadow: none;
+    margin: 0;
 }
 aside, section{
     margin: 10px;
