@@ -12,4 +12,5 @@
 <ul>
     <li><a href="LabFive/Index.html">Lab Five</a></li>
     <li><a href="LabSix/Index.html">Lab Six</a></li>
+    <li><a href="LabSeven/Index.html">Lab Seven</a></li>
 </ul>
