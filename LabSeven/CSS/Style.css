@@ -13,6 +13,16 @@ video{
     max-width:  100%;
 }
 
+a{
+    color: purple;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--backG);
+}
 #container{
     margin: 10px;
 }
@@ -90,4 +100,76 @@ td, th{
     border: 2px solid var(--backG);
     padding: 10px;
     text-align: center;
+}
+
+footer{
+    background-color: var(--sectionbackG);
+    color: var(--text);
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 5px;
+}
+
+@media only screen and (min-width: 768px){
+    header{
+        height: 325px;
+    }
+
+    header h1{
+        line-height: 298px;
+    }
+    
+    nav{
+        background-color: var(--sectionbackG);
+        padding: 2px 0;
+        margin-top: 2px;
+    }
+    nav li{
+        display: inline-block;
+    }
+
+    nav li a {
+        border-top: 2px solid var(--text);
+        border-bottom: 2px solid var(--text);
+        width: 150px;
+    }
+
+    nav li a:hover{
+        color: var(--subColor);
+    }
+
+    video{
+        display: block;
+        width: 89%;
+        margin: 20px auto;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    #container {
+        width: 75%;
+        margin: 20px auto;
+    }
+
+    header{
+        height: 400px;
+        margin-bottom: 10px;
+    }
+
+    header h1 {
+        line-height: 400px;
+        font-size: 3em;
+    }
+
+    nav li a {
+        width: 250px;
+    }
+
+    section{
+        box-shadow: 2px 2px 5px var(--text);
+        margin: 20px 0 20px 0;
+    }
+    video{
+        width: 75%;
+    }
 }
