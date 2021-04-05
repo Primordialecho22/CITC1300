@@ -38,6 +38,7 @@ header{
 header h1{
     color: var(--text);
     line-height: 200px;
+    font-size: 1em;
     text-align: center;
     text-shadow: 2px 2px 2px var(--subColor);
 }
@@ -89,16 +90,20 @@ audio {
     margin: 20px auto;
 }
 
-iframe{
-    
-}
-
 table{
     width: 100%;
     border: 2px solid var(--backG);
     margin: 10px 0;
 }
 
+.audio {
+    margin-left: 18px;
+}
+
+.video{
+    max-width: 95%;
+    margin-left: 8px;
+}
 td, th{
     color: var(--text);
     max-width: 88%;
@@ -123,6 +128,7 @@ footer{
 
     header h1{
         line-height: 298px;
+        font-size: 2em;
     }
     
     nav{
@@ -149,6 +155,7 @@ footer{
         width: 89%;
         margin: 20px auto;
     }
+
 }
 
 @media only screen and (min-width: 1024px){
