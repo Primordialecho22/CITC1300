@@ -27,7 +27,7 @@ a:hover{
     margin: 10px;
 }
 header{
-    background-image: url('../Images/Header02.jpg');
+    background-image: url('../Images/Header.jpg');
     background-size: cover;
     height: 250px;
     padding: 5px;
@@ -97,6 +97,7 @@ table{
 
 td, th{
     color: var(--text);
+    max-width: 88%;
     border: 2px solid var(--backG);
     padding: 10px;
     text-align: center;
