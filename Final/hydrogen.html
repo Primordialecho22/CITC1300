@@ -6,17 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final - Periodic Table</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="images/png" href="images/favicon-16x16.png">
 </head>
 <body>
     <div id="contianer">
     <header>
         <h1>Understanding Chemistry</h1>
     </header>
+
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html">Homepage</a></li>
+        </ul>
+    </nav>
+
     <main>
         <section>
     <h2>Hydrogen</h2>
-    <p>
+    <p class="info">
         Fun Fact: <br>
         Scientists had been producing hydrogen for years before it was recognized 
         as an element. Written records indicate that Robert Boyle produced hydrogen 
@@ -26,7 +35,7 @@
          the universe. It is estimated that 90% of the visible universe is composed of hydrogen.
     </p>
     <img src="images/Header-01.jpg" alt="element">
-    <p>
+    
         <h4>Symbol: H</h4>
         <h4>Atomic Mass: 1.008</h4>
         <h4>Atomic Number: 1</h4>
@@ -38,5 +47,15 @@
     </footer>
 </main>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+crossorigin="anonymous"></script>
+<script src="js/jquery.slicknav.js"></script>
+<script>
+    $(function(){
+        $('#menu').slicknav();
+    });
+</script>
 </body>
 </html>

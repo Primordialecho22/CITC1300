@@ -6,28 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final - Periodic Table</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div id="contianer">
     <header>
         <h1>Understanding Chemistry</h1>
     </header>
-    <div id="contianer">
+
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html">Homepage</a></li>
+            
+        </ul>
+    </nav>
+
     <main>
         <section>
-    <h2></h2>
-    <p>
+    <h2>Actinium</h2>
+    <p class="info">
         Fun Fact: <br>
-        
+        Actinium was discovered in 1899 by André-Louis Debierne, a French chemist, 
+        while experimenting with new methods of separating rare earth oxides. Friedrich 
+        Otto Giesel independently discovered actinium in 1902. Actinium is a rare element 
+        that is present in uranium ores in tiny amounts, but it is usually cheaper and easier 
+        to create actinium when it is needed by bombarding radium with neutrons in a nuclear reactor.
     </p>
     <img src="images/Header-01.jpg" alt="element">
-    <p>
-        Symbol:  <br>
-        Atomic Mass:  <br>
-        Atomic Number:  <br>
-        Type:   <br>
-        Electron Configuration: 
-    </p>
+
+        <h4>Symbol: Ac</h4>
+        <h4>Atomic Mass: (227)</h4>
+        <h4>Atomic Number: 89</h4>
+        <h4>Electron Configuration: [Rn]7s^26d^1</h4> 
+    
     </section>
     <footer>
         <h4>Understanding Chemistry</h4>
@@ -35,5 +47,15 @@
     </footer>
 </main>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+crossorigin="anonymous"></script>
+<script src="js/jquery.slicknav.js"></script>
+<script>
+    $(function(){
+        $('#menu').slicknav();
+    });
+</script>
 </body>
 </html>

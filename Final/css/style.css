@@ -33,11 +33,10 @@ nav{
 
 section{
     margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: black;
-    border: 2px solid powderblue;
-    border-radius: 10px;
 }
 
 #contianer{
@@ -47,8 +46,9 @@ section{
 }
 
 a{
-    color: teal;
+    color: darkslateblue;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover{
@@ -66,6 +66,12 @@ h3{
 
 video{
     max-width: 100%;
+    border-radius: 10px;
+}
+
+.top{
+    text-align: center;
+    color: seagreen;
 }
 
 .chem{
@@ -82,18 +88,18 @@ video{
     margin-left: 10px;
 }
 
+#peaches{
+    text-align: left;
+}
+
 .periodic-table{
     display: grid;
-    background-color: dimgray;
     padding: 8px;
-    border-radius: 10px;
 }
 
 .grid-item{
     display: grid;
-    background-color: black;
-    color: blueviolet;
-    border-radius: 10px;
+    color: teal;
     padding: 40px;
     text-align: center;
 }
@@ -103,15 +109,93 @@ video{
     font-size: 15px;
     padding: 20px;
     margin: 10px;
-    border: 2px solid black;
-    border-radius: 10px;
 }
 
 footer{
-    background-color: dimgray;
     color: black;
+    background-color: dimgray;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
+}
+
+@media only screen and (min-width: 1024px){
+    body{
+        margin: 50px;
+    }
+
+    main{
+        display: block;
+    }
+
+    img{
+        max-width: 35%;
+    }
+
+    .slicknav_menu{
+        display: none;
+    }
+
+    nav {
+        text-align: center;
+        padding: 5px 0;
+        margin-top: 5px;
+        display: block;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline-block;
+        border-top: 2px solid teal;
+        border-bottom: 2px solid teal;
+    }
+
+    nav li a {
+        display: block;
+        color: teal;
+        padding: 5px;
+        margin-right: 25px;
+        width: 250px;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    .chem_img{
+        max-width: 50%;
+    }
+
+    .sci_method{
+        max-width: 50%;
+        margin-left: 25px;
+    }
+
+    .periodic-table{
+        display: block;
+        padding: 20px;
+        margin: 5px;
+    }
+
+    .grid-item{
+        display: flex;
+        color: teal;
+        text-align: center;
+    }
+
+    .elements{
+        background-color: white;
+        font-size: 15px;
+        padding: 50px;
+        margin: 5px;
+    }
+
+    .info{
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
 }
                 
