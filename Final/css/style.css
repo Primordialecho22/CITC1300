@@ -3,6 +3,11 @@ body{
     color: teal;
 }
 
+main{
+    border-bottom: 2px solid teal;
+    margin-bottom: 25px;
+}
+
 header{
     background-image: url(../images/Header-01.jpg);
     background-position: center center;
@@ -35,7 +40,6 @@ section{
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: black;
 }
 
@@ -61,7 +65,7 @@ h2{
 
 h3{
     text-align: center;
-    color: black;
+    color: teal;
 }
 
 video{
@@ -70,7 +74,6 @@ video{
 }
 
 .top{
-    text-align: center;
     color: seagreen;
 }
 
@@ -88,13 +91,18 @@ video{
     margin-left: 10px;
 }
 
-#peaches{
-    text-align: left;
+#accordion{
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .periodic-table{
     display: grid;
     padding: 8px;
+    border-top: 2px solid teal;
+    border-bottom: 2px solid teal;
 }
 
 .grid-item{
@@ -111,6 +119,38 @@ video{
     margin: 10px;
 }
 
+.spon{
+    border-top: 2px solid teal;
+    border-bottom: 2px solid teal;
+}
+
+.us{
+    text-decoration: underline;
+}
+
+#contact{
+    text-align: right;
+    border-top: 2px solid teal;
+}
+
+#about{
+    border-top: 2px solid teal;
+    border-bottom: 2px solid teal;
+}
+
+#peaches{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    border-top: 2px solid teal;
+    border-bottom: 2px solid teal;
+}
+
+.table_nav{
+    text-align: left;
+}
+
 footer{
     color: black;
     background-color: dimgray;
@@ -119,19 +159,8 @@ footer{
     text-align: center;
 }
 
-@media only screen and (min-width: 1024px){
-    body{
-        margin: 50px;
-    }
-
-    main{
-        display: block;
-    }
-
-    img{
-        max-width: 35%;
-    }
-
+@media only screen and (min-width: 768px){
+    
     .slicknav_menu{
         display: none;
     }
@@ -150,6 +179,7 @@ footer{
 
     nav li {
         display: inline-block;
+        margin: 10px;
         border-top: 2px solid teal;
         border-bottom: 2px solid teal;
     }
@@ -162,6 +192,39 @@ footer{
         width: 250px;
         font-size: 1.3em;
         text-decoration: none;
+    }
+
+    #accordion{
+        font-size: 20px;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .table_nav{
+        text-align: left;
+    }
+
+    video{
+        width: 65%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    body{
+        margin: 50px;
+    }
+
+    main{
+        display: block;
+    }
+
+    img{
+        max-width: 35%;
+    }
+
+    video{
+        width: 40%;
     }
 
     .chem_img{
@@ -195,6 +258,18 @@ footer{
     .info{
         margin-left: 250px;
         margin-right: 250px;
+    }
+
+    #accordion{
+        font-size: 19px;
+        margin-top: 25px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    #peaches{
+        margin-left: 350px;
+        margin-right: 350px;
     }
 
 }
