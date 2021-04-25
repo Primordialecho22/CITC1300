@@ -4,7 +4,6 @@ body{
 }
 
 main{
-    border-bottom: 2px solid teal;
     margin-bottom: 25px;
 }
 
@@ -101,8 +100,6 @@ video{
 .periodic-table{
     display: grid;
     padding: 8px;
-    border-top: 2px solid teal;
-    border-bottom: 2px solid teal;
 }
 
 .grid-item{
@@ -119,23 +116,12 @@ video{
     margin: 10px;
 }
 
-.spon{
-    border-top: 2px solid teal;
-    border-bottom: 2px solid teal;
-}
-
 .us{
     text-decoration: underline;
 }
 
 #contact{
     text-align: right;
-    border-top: 2px solid teal;
-}
-
-#about{
-    border-top: 2px solid teal;
-    border-bottom: 2px solid teal;
 }
 
 #peaches{
@@ -149,6 +135,10 @@ video{
 
 .table_nav{
     text-align: left;
+}
+
+.rotate{
+    transform: rotate(270deg);
 }
 
 footer{
@@ -195,10 +185,10 @@ footer{
     }
 
     #accordion{
-        font-size: 20px;
+        font-size: 17px;
         margin-top: 25px;
-        margin-left: 25px;
-        margin-right: 25px;
+        margin-left: 19px;
+        margin-right: 19px;
     }
 
     .table_nav{
@@ -207,6 +197,15 @@ footer{
 
     video{
         width: 65%;
+    }
+
+    .chem_img{
+        max-width: 65%;
+    }
+    
+    .sci_method{
+        max-width: 65%;
+        margin-left: 10px;
     }
 }
 
